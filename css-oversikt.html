@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS-kodesnutter</title>
+    <link rel="stylesheet" href="oversikt-styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CSS-kodesnutter</h1>
+        <p>Her er en liste over grunnleggende CSS-egenskaper med korte forklaringer og eksempler på gyldige verdier.</p>
+
+        <div class="description">
+            <span class="property">Elementvelger (f.eks., <code>h1</code>, <code>p</code>)</span>
+            <p>Velger alle forekomster av et element.</p>
+            <div class="example">
+                <code>p { color: red; }</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">Klassevelger (f.eks., <code>.className</code>)</span>
+            <p>Velger elementer med en spesifikk klasse.</p>
+            <div class="example">
+                <code>.highlight { background-color: yellow; }</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">ID velger (f.eks., <code>#idName</code>)</span>
+            <p>Velger et enkelt element med en spesifikk ID.</p>
+            <div class="example">
+                <code>#unique { font-size: 20px; }</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">color</span>
+            <p>Setter fargen på teksten.</p>
+            <div class="example">
+                <code>color: blue;</code><br>
+                <code>color: #ff0000;</code><br>
+                <code>color: rgb(0, 255, 0);</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">font-family</span>
+            <p>Setter skrifttypen for teksten.</p>
+            <div class="example">
+                <code>font-family: Arial, sans-serif;</code><br>
+                <code>font-family: 'Times New Roman', serif;</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">font-size</span>
+            <p>Setter størrelsen på teksten.</p>
+            <div class="example">
+                <code>font-size: 16px;</code><br>
+                <code>font-size: 1.5em;</code><br>
+                <code>font-size: 120%;</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">font-weight</span>
+            <p>Setter tykkelsen (fetheten) på teksten.</p>
+            <div class="example">
+                <code>font-weight: normal;</code><br>
+                <code>font-weight: bold;</code><br>
+                <code>font-weight: 700;</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">text-align</span>
+            <p>Setter justeringen av teksten.</p>
+            <div class="example">
+                <code>text-align: left;</code><br>
+                <code>text-align: center;</code><br>
+                <code>text-align: right;</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">margin</span>
+            <p>Setter ytterkanten av elementer.</p>
+            <div class="example">
+                <code>margin: 10px;</code><br>
+                <code>margin: 5px 10px 15px 20px;</code><br>
+                <code>margin-top: 10px;</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">padding</span>
+            <p>Setter innerkanten av elementer.</p>
+            <div class="example">
+                <code>padding: 10px;</code><br>
+                <code>padding: 5px 10px 15px 20px;</code><br>
+                <code>padding-left: 10px;</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">border</span>
+            <p>Setter kanten (rammen) til elementer.</p>
+            <div class="example">
+                <code>border: 1px solid black;</code><br>
+                <code>border-width: 2px;</code><br>
+                <code>border-color: blue;</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">width</span>
+            <p>Setter bredden på elementer.</p>
+            <div class="example">
+                <code>width: 100px;</code><br>
+                <code>width: 50%;</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">height</span>
+            <p>Setter høyden på elementer.</p>
+            <div class="example">
+                <code>height: 200px;</code><br>
+                <code>height: 50vh;</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">background-color</span>
+            <p>Setter bakgrunnsfargen til et element.</p>
+            <div class="example">
+                <code>background-color: yellow;</code><br>
+                <code>background-color: #00ff00;</code><br>
+                <code>background-color: rgba(255, 0, 0, 0.5);</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">background-image</span>
+            <p>Setter et bakgrunnsbilde for et element.</p>
+            <div class="example">
+                <code>background-image: url('image.jpg');</code><br>
+                <code>background-image: linear-gradient(to right, red, blue);</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">display</span>
+            <p>Kontrollerer visningsoppførselen til et element (f.eks., <code>block</code>, <code>inline</code>, <code>none</code>).</p>
+            <div class="example">
+                <code>display: block;</code><br>
+                <code>display: inline;</code><br>
+                <code>display: none;</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">position</span>
+            <p>Setter posisjoneringsmetoden (f.eks., <code>static</code>, <code>relative</code>, <code>absolute</code>, <code>fixed</code>).</p>
+            <div class="example">
+                <code>position: static;</code><br>
+                <code>position: relative;</code><br>
+                <code>position: absolute;</code><br>
+                <code>position: fixed;</code>
+            </div>
+        </div>
+
+        <div class="description">
+            <span class="property">float</span>
+            <p>Gjør at elementer flyter til venstre eller høyre.</p>
+            <div class="example">
+                <code>float: left;</code><br>
+                <code>float: right;</code><br>
+                <code>float: none;</code>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
